@@ -13,15 +13,15 @@
 
 # Multiple return values
 
-def format_name(fname, lname):
-    # Quick guard clause: check if either string is empty or just spaces
-    if fname.strip() == "" or lname.strip() == "":
-        return "You didn't provide valid inputs."
+# def format_name(fname, lname):
+#     # Quick guard clause: check if either string is empty or just spaces
+#     if fname.strip() == "" or lname.strip() == "":
+#         return "You didn't provide valid inputs."
    
-    formated_fname = fname.title()
-    formated_lname = lname.title()
+#     formated_fname = fname.title()
+#     formated_lname = lname.title()
 
-    return f"Result: {formated_fname} {formated_lname}"
+#     return f"Result: {formated_fname} {formated_lname}"
 
 # 1. Collect the inputs first
 # first_name = input("What is your first name? ")
@@ -30,3 +30,15 @@ def format_name(fname, lname):
 # # 2. Pass the saved variables into the function and print
 # output = format_name(first_name, last_name)
 # print(output)
+
+def outer_function(a, b):
+    def inner_function(c, d):
+        return c + d
+    return inner_function(a, b)
+ 
+result = outer_function(5, 10)
+print(result)
+
+
+
+
