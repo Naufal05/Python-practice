@@ -35,10 +35,13 @@ OCTAGON, NONAGON AND DECAGON"""
 
 """RANDOM WALK OF TURTLE"""
 
-directions = [0, 90, 180, 270]
-for _ in range(200):
-    mnz_turtle.forward(20)
-    mnz_turtle.setheading(random.choice(directions))
+# directions = [0, 90, 180, 270]
+# for _ in range(200):
+#     mnz_turtle.forward(20)
+#     mnz_turtle.setheading(random.choice(directions))
+
+
+""" SPILOGRAPH """
 
 my_screen = Screen()
 my_screen.exitonclick
