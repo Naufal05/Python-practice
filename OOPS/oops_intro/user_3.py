@@ -14,7 +14,8 @@ The developer responsiblity for not accessing the underscored items
 # GETTER AND SETTER METHOD 
 
 2. REcommended Approach using Properties
-
+    - @property
+    
 """
 
 
