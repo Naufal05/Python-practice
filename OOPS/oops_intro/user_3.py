@@ -15,7 +15,10 @@ The developer responsiblity for not accessing the underscored items
 
 2. REcommended Approach using Properties
     - @property
-    
+
+
+3. STATIC ATTRIBUTES
+ 
 """
 
 
