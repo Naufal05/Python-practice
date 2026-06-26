@@ -22,3 +22,6 @@ class EmailService:
 email = EmailService()
 email.send_Email()
 
+"""the send_email method abstracts away the unwated stps for the user to carry on,
+which focus more on simplfying usage by hiding uncessary details.
+"""
