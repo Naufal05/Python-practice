@@ -13,3 +13,6 @@
   - class Fish(Animal):
     def **init**(Self):
     super().**init**()
+
+- Slicing
+  -
