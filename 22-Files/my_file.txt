@@ -1,0 +1,2 @@
+New written textNew written text using append mode
+New written text using append mode
